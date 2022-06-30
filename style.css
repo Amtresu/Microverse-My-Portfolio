@@ -1,0 +1,71 @@
+
+body{
+  background-color: #f7f7f9;
+  padding: 0;
+  margin: 0;
+  font-family: poppins;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;}
+
+#hamburger_menu{
+    padding-right: 15px;
+  }
+
+.headliner_content{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7.125rem 1.5rem;
+    background-size: 100%;
+} 
+
+#greeting{
+    color:#172b4d;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 52px;
+    margin: 0;
+}
+
+#invitation{
+    text-transform: uppercase;
+    color: #7f8cff;
+    font-weight: 500;
+    margin: 0;
+}
+
+#about_me{
+  color: #344563;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 12px 0;
+  margin: 0;
+}
+
+.social_media_icons{
+    display: flex;
+    padding: 12px 0;
+    margin: 0;
+}
+
+.social_icon{
+    padding: 15px 15px 15px 0px;
+}
+
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0;
+  margin-right: 2px;
+}
