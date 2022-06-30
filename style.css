@@ -1,4 +1,4 @@
-
+@media only screen and (max-device-width: 480px){
 body {
   background-color: #f7f7f9;
   padding: 0;
@@ -68,4 +68,5 @@ ul {
   align-items: flex-end;
   padding: 0;
   margin-right: 2px;
+}
 }
