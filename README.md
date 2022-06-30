@@ -1,40 +1,53 @@
-# Microverse My Portfolio
-> Beginning building my portfolio project for microverse.
+# Project Name
+
+> This is the beginnning of my portfolio built for Microverse
 
 
 ## Built With
 
-- HTML & CSS
+- HTML
+- CSS
 
+## Live Demo (if available)
+
+Coming Soon!
+
+
+## Getting Started
+
+Clone the repository and open it up!
 
 
 
 To get a local copy up and running follow these simple example steps.
 
-1. Clone the repository!
+### Prerequisites
+Working Computer
+### Setup
+Simply Download
+### Install
+Text Editor
 
 
 
 ## Authors
 
-👤 **Conor F.**
+👤 **Author1**
 
-- GitHub: [@amtresu](https://github.com/Amtresu)
-
+- GitHub: [@Amtresu](https://github.com/Amtresu)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-
-
-## 📝 License
+## Acknowledgments
 
 Microverse
-Test
+## 📝 License
+
+Free license 
