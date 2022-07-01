@@ -81,7 +81,7 @@
     padding-bottom: 50px;
   }
 
-  #project_1 {
+  .project_1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -92,11 +92,11 @@
     margin-bottom: 40px;
   }
 
-  #project1_img {
+  .project1_img {
     margin-top: 16px;
   }
 
-  #project1_title {
+  .project1_title {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -110,14 +110,14 @@
     color: #172b4d;
   }
 
-  #tonic_list {
+  .tonic_list {
     display: flex;
     gap: 15px;
     margin-top: 5px;
     color: #7a869a;
   }
 
-  #canopy {
+  .canopy {
     font-size: 13px;
     font-weight: 600;
     line-height: 16px;
@@ -139,7 +139,7 @@
     padding: 4px 12px;
   }
 
-  #button_list {
+  .button_list {
     gap: 10px;
   }
 
