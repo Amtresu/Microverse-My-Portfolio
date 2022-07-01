@@ -40,6 +40,7 @@
     color: #7f8cff;
     font-weight: 500;
     margin: 0;
+    text-decoration: none;
   }
 
   #about_me {
@@ -157,14 +158,33 @@
     background: #fff;
     border: 1px solid #6070ff;
     border-radius: 16px;
+    color: #6070FF;
   }
 
-  #see_project:hover {
+  .see_project:hover {
     background-color: #6070ff;
     cursor: pointer;
-    transform: scale(1.15);
-    filter: brightness(120%);
+    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #FFF;
   }
+
+  .see_project:active{
+    background: #2230D2;
+    border-radius: 8px;
+    transition-duration: 500ms;
+    color: #fff;
+  }
+
+  .see_project:disabled{
+    color: #5E6C84;
+    border: 1px solid #5E6C84;
+    border-radius: 16px;
+    
+
+  }
+
+  
 
   #greeting_2 {
     color: #172b4d;
@@ -198,13 +218,31 @@
     background: #fff;
     border: 1px solid #6070ff;
     border-radius: 16px;
+    color: #6070FF;
   }
 
+  
   #resume:hover {
     background-color: #6070ff;
     cursor: pointer;
-    transform: scale(1.15);
-    filter: brightness(120%);
+    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  #resume:active{
+    background: #2230D2;
+    border-radius: 8px;
+    transition-duration: 500ms;
+    color: #fff;
+  }
+
+  #resume:disabled{
+    color: #5E6C84;
+    border: 1px solid #5E6C84;
+    border-radius: 16px;
+    
+
   }
 
   .abilities {
