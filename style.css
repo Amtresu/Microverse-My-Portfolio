@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   body {
     background-color: #f7f7f9;
     padding: 0;
@@ -23,11 +23,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 7.125rem 1.5rem;
+    padding: 7.125rem 1.5rem 0;
     background-size: 100%;
   }
 
-  #greeting {
+  .greeting {
     color: #172b4d;
     font-size: 2.5rem;
     font-weight: 700;
@@ -35,11 +35,12 @@
     margin: 0;
   }
 
-  #invitation {
+  .invitation {
     text-transform: uppercase;
     color: #7f8cff;
     font-weight: 500;
     margin: 0;
+    text-decoration: none;
   }
 
   #about_me {
@@ -53,12 +54,16 @@
 
   .social_media_icons {
     display: flex;
-    padding: 12px 0;
     margin: 0;
   }
 
   .social_icon {
     padding: 15px 15px 15px 0;
+  }
+
+  .social_icon:hover {
+    cursor: pointer;
+    transform: scale(1.15);
   }
 
   ul {
@@ -68,5 +73,197 @@
     align-items: flex-end;
     padding: 0;
     margin-right: 2px;
+  }
+
+  #projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 7.125rem 1.5rem;
+    padding-bottom: 50px;
+  }
+
+  .project_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #dfe1e6;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+  }
+
+  .project1_img {
+    margin-top: 16px;
+  }
+
+  .project1_title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #172b4d;
+  }
+
+  .tonic_list {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+    color: #7a869a;
+  }
+
+  .canopy {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #344563;
+  }
+
+  .language_descriptor {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    background-color: #ebebff;
+    border-radius: 8px;
+    border-style: none;
+    padding: 4px 12px;
+  }
+
+  .button_list {
+    gap: 10px;
+  }
+
+  .see_project {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 12px;
+    background: #fff;
+    border: 1px solid #6070ff;
+    border-radius: 16px;
+    color: #6070ff;
+  }
+
+  .see_project:hover {
+    background-color: #6070ff;
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .see_project:active {
+    background: #2230d2;
+    border-radius: 8px;
+    transition-duration: 500ms;
+    color: #fff;
+  }
+
+  .see_project:disabled {
+    color: #5e6c84;
+    border: 1px solid #5e6c84;
+    border-radius: 16px;
+  }
+
+  #greeting_2 {
+    color: #172b4d;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 52px;
+    margin-top: 50px;
+  }
+
+  #contact_info {
+    background-image: url("contact_background.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7.125rem  1.5rem 0;
+    padding-top: 0;
+    background-size: 100%;
+  }
+
+  #resume {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 12px;
+    background: #fff;
+    border: 1px solid #6070ff;
+    border-radius: 16px;
+    color: #6070ff;
+  }
+
+  #resume:hover {
+    background-color: #6070ff;
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+  }
+
+  #resume:active {
+    background: #2230d2;
+    border-radius: 8px;
+    transition-duration: 500ms;
+    color: #fff;
+  }
+
+  #resume:disabled {
+    color: #5e6c84;
+    border: 1px solid #5e6c84;
+    border-radius: 16px;
+  }
+
+  .abilities {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .language_img {
+    margin-bottom: 10px;
+  }
+
+  .arrow {
+    margin-left: 180px;
+  }
+
+  .arrow2 {
+    margin-left: 250px;
+  }
+
+  .slider_titles {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
   }
 }
