@@ -285,9 +285,30 @@
   }
 
   .contact_forms {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+  }
+  .contact_forms .form_field{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center
+  }
+  .contact_forms .form_field .form_name,
+  .contact_forms .form_field .form_email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
   }
 
+  .contact_forms .form_field .form_name .input,
+  .contact_forms .form_field .form_email .input{
+    width: 272px;
+  }
   #first_name {
     display: block;
     left: 0;
