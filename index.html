@@ -288,16 +288,32 @@
                     <li><img class="arrow2" src=img/right_arrow.png alt="right_arrow"></li>
                 </ul>
 
-                <img src="img/Separator.png" alt="seperator">
+                <img src="img/Separator.png" id="last_seperator" alt="seperator">
 
         </div>
         </section>
-
-
-
- 
-
-        
+        <section class="contact_form">
+            <h3 class="contact_header">Contact Me</h3>
+            <p class="contact_body">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                <form class="contact_forms"  action="https://formspree.io/f/mdobrawq" method="POST">
     
+                    <ul class="form_field">
+                        <li class="form_name">
+                            <input type="text" maxlength="30" id="first_name" name="first_name" class="input" placeholder="Name" required>
+                        </li>
+                        <li class="form_email"> 
+                            <input type="email" id="email" name="email" class="input" placeholder="Email" size="30" required>
+                        </li>
+                        <li class="form_text">
+                           <textarea name="text" maxlength="500" id="message" cols="32" rows="5" required></textarea>
+                        </li>
+                        <li class="form_button">
+                            <button id="form_button" type="submit">Get in touch</button>
+                        </li>
+                    </ul>
+                </form>
+               
+                
+        </section>
 </body>
 </html>
