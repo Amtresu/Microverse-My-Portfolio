@@ -31,7 +31,7 @@
     background-color: #ffff;
   }
 
-  #logo_picture {
+  .logo_picture {
     margin-left: 155px;
   }
 
@@ -670,7 +670,7 @@
     text-align: left;
   }
 
-  #last_seperator {
+  .last_seperator {
     margin-bottom: 100px;
   }
 
