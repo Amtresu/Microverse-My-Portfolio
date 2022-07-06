@@ -1,4 +1,10 @@
 @media only screen and (min-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
   ul {
     list-style: none;
   }
@@ -6,13 +12,13 @@
   .headliner_content {
     background-image: url("desktop_header_background.svg");
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
+    flex-wrap: wrap;
     background-repeat: no-repeat;
     flex-direction: column;
     align-items: flex-start;
-    padding: 200px;
-    padding-top: 150px;
-    padding-bottom: 300px;
+    padding: 15%;
     background-color: #ffff;
   }
 
@@ -48,7 +54,7 @@
   }
 
   #greeting {
-    width: 920px;
+    width: auto;
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
@@ -57,8 +63,10 @@
   }
 
   .about_me {
-    width: 920px;
-    height: 98px;
+    display: flex;
+    flex: wrap;
+    width: auto;
+    height: auto;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -94,7 +102,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 140px;
+    margin: 10%;
   }
 
   .desktop_project_1 {
@@ -103,9 +111,11 @@
     flex-direction: row;
     border: 1px solid #dfe1e6;
     border-radius: 25px;
-    margin-bottom: 142px;
+    margin: 5%;
+
+    /* margin-bottom: 142px;
     margin-left: 142px;
-    margin-right: 142px;
+    margin-right: 142px; */
   }
 
   .desktop_project_1_img {
@@ -192,9 +202,7 @@
     flex-direction: row-reverse;
     border: 1px solid #dfe1e6;
     border-radius: 25px;
-    margin-bottom: 142px;
-    margin-left: 142px;
-    margin-right: 142px;
+    margin: 5%;
   }
 
   /*
@@ -341,6 +349,12 @@
     display: flex;
     flex-direction: row;
     gap: 12px;
+  }
+
+  .works_desktop {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
   }
 
   .mobile_header,
