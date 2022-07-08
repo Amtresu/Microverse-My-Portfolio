@@ -64,6 +64,7 @@
   .social_icon:hover {
     cursor: pointer;
     transform: scale(1.15);
+
   }
 
   ul {
@@ -174,6 +175,7 @@
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
     color: #fff;
+    transform: scale(1.5)
   }
 
   .see_project:active {
