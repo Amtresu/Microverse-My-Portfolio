@@ -67,9 +67,8 @@
     flex: wrap;
     width: auto;
     height: auto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    /* font-weight: 400;
+    line-height: 28px; */
     color: #344563;
   }
 
@@ -144,7 +143,7 @@
     display: flex;
     gap: 15px;
     margin-top: 5px;
-    color: #7a869a;
+    color: #21201E;
     padding-left: 0;
   }
 
@@ -153,7 +152,7 @@
     font-weight: 600;
     letter-spacing: 0;
     text-align: left;
-    color: #344563;
+    color: #21201E;
   }
 
   .button_list {
@@ -315,7 +314,7 @@
 
   .contact_header {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 300%;
     line-height: 52px;
     color: #fff;
     margin-top: 200px;
@@ -323,8 +322,8 @@
 
   .contact_body {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 130%;
+    /* line-height: 28px; */
     text-align: center;
     color: #ebebff;
     margin: 0 30px 0 30px;
@@ -528,7 +527,7 @@
     display: flex;
     gap: 15px;
     margin-top: 5px;
-    color: #7a869a;
+    color: #21201E;
   }
 
   .canopy {
@@ -537,7 +536,7 @@
     line-height: 16px;
     letter-spacing: 0;
     text-align: left;
-    color: #344563;
+    color: #21201E;
   }
 
   .language_descriptor {
