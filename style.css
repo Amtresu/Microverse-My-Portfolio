@@ -389,6 +389,7 @@
 }
 
 @media only screen and (max-width: 480px) {
+
   .desktop_projects,
   .desktop_project_1,
   .desktop_project_2,
@@ -424,10 +425,9 @@
     background: #6070ff;
     backdrop-filter: blur(6px);
     mix-blend-mode: multiply;
-    top: 0;
+    top: 0px;
     width: 100%;
     height: 100vh;
-    padding-left: 30px;
   }
 
   .close_popup {
@@ -469,6 +469,7 @@
     font-style: normal;
     position: relative;
     z-index: 1;
+
   }
 
   .headliner_content {
@@ -648,13 +649,6 @@
     border-radius: 16px;
   }
 
-  .projects_popup {
-    visibility: hidden;
-    width: 100%;
-    height: 80vh;
-    position: fixed;
-    background-color: red;
-  }
 
   #greeting_2 {
     color: #172b4d;
@@ -669,7 +663,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 7.125rem  1.5rem 0;
+    padding: 7.125rem 1.5rem 0;
     padding-top: 0;
     background-size: 100%;
   }
