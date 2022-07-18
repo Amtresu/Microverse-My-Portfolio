@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,397 +8,425 @@
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <title>Conor Follette</title>
 </head>
 
 <body>
+
     <div class="container">
         <header class="mobile_header">
             <div class="logo">
                 <a href="">
-                <img class="logo_picture" src="img/LogoPlaceholder.png" alt="My_Logo">
+                    <img class="logo_picture" src="img/LogoPlaceholder.png" alt="My_Logo">
                 </a>
             </div>
-            <nav class="menu_icon">
+
+
+            <nav class="menu_icon" id="menu_icon">
                 <img id="hamburger_menu" src="img/Union.png" alt="menu_button">
             </nav>
+
+            <aside class="popup_window" id="popup_window">
+                <button class="close_popup" id="close_popup">X</button>
+                <ul class="popup_menu">
+                        <li class="popup_item"><a href="#projects">Portfolio</a></li>
+                        <li class="popup_item"><a href="#contact_info">About</a></li>
+                        <li class="popup_item"><a href="#contact_form">Contact</a></li>
+                </ul>
+            </aside>
+
+
         </header>
 
         <header class="desktop_header">
             <div class="logo">
                 <a href="">
-                <img class="logo_picture" src="img/LogoPlaceholder.png" alt="My_Logo">
+                    <img class="logo_picture" src="img/LogoPlaceholder.png" alt="My_Logo">
                 </a>
             </div>
             <nav class="menu_icon">
                 <ul class="desktop_nav">
-                    <li><a href="#work">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                  </ul>
+                    <li><a href="#projects">Portfolio</a></li>
+                    <li><a href="#contact_info">About</a></li>
+                    <li><a href="#contact_form">Contact</a></li>
+                </ul>
             </nav>
         </header>
 
-    <section class="headliner_content">
-        <div>
-            <h1 id="greeting">I'm Conor Glad to See you!</h1>
-        </div>
-
-        <div>
-            <p class="about_me">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        </div>
-
-        <div>
-            <a href="" class="invitation">Let's Connect</a>
-        </div>
-
-        <div class="social_media_icons">
-
-            <ul class="social_media_icon_list">
-                 <li>
-                    <a href="">
-                       <img class="social_icon" src="img/twitter.svg" alt="Twitter">
-                    </a>
-                 </li>
-
-                 <li>
-                    <a href="">
-                       <img class="social_icon" src="img/Linkedin.svg" alt="LinkedIn">
-                    </a>   
-                 </li>
-
-                 <li>
-                    <a href="">
-                       <img class="social_icon" src="img/M.svg" alt="M">
-                    </a>
-                 </li>
-
-                 <li>
-                    <a href="">
-                       <img class="social_icon" src="img/Git.svg" alt="Github">
-                    </a>
-                 </li>
-
-                 <li>
-                    <a href="">
-                       <img class="social_icon" src="img/peace.svg" alt="Peace">
-                    </a>
-                 </li>
-              </ul>
-
-        </div>
-
-
-    </section>
-
-    <section id="projects">
-        <div class="project_1">
-
-            <div class="project1_img">
-                <img src="img/Tonic.png" alt="tonic">
+        <section class="headliner_content">
+            <div>
+                <h1 id="greeting">I'm Conor Glad to See you!</h1>
             </div>
 
-        <h3 class="project1_title">Tonic</h3>
-
-        <ul class="tonic_list">
-            <li class="canopy">CANOPY</li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> Back End Dev </li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> 2015 </li>
-        </ul>
-
-        <p>A daily selection of privately personalized reads; no accounts<br/> or sign-ups required.</p>
-
-        <div class="small_buttons">
-            <ul class="button_list">
-                <li class="language_descriptor">html</li>
-                <li class="language_descriptor">css</li>
-                <li class="language_descriptor">javaScript</li>
-            </ul>
-        </div>
-
-        <button class="see_project" type="button">See Project</button>
-
-
-          
-        </div>
-
-        <div class="project_1">
-
-            <div class="project1_img">
-                <img src="img/multipoststories.png" alt="multi-post-stories">
+            <div>
+                <p class="about_me">I’m a software developer! I can help you build a product , feature or website Look
+                    through some of my work and experience! If you like what you see and have a project you need coded,
+                    don’t hestiate to contact me.</p>
             </div>
 
-        <h3 class="project1_title">Multi-Post Stories</h3>
-
-        <ul class="tonic_list">
-            <li id="canopy">CANOPY</li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> Back End Dev </li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter">
-        </ul>
-
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-
-        <div class="small_buttons">
-            <ul class="button_list">
-                <li class="language_descriptor">html</li>
-                <li class="language_descriptor">css</li>
-                <li class="language_descriptor">javaScript</li>
-            </ul>
-        </div>
-
-        <button class="see_project" type="button">See Project</button>
-
-
-          
-        </div>
-
-        <div class="project_1">
-
-            <div class="project1_img">
-                <img src="img/tonic2.png" alt="tonic">
+            <div>
+                <a href="" class="invitation">Let's Connect</a>
             </div>
 
-        <h3 class="project1_title">Tonic</h3>
+            <div class="social_media_icons">
 
-        <ul class="tonic_list">
-            <li class="canopy">CANOPY</li>
-            <li> <img class="counter" src="img/Counter.png" alt="tonic"> </li>
-            <li> Back End Dev </li>
-            <li> <img class="counter" src="img/Counter.png" alt="tonic"> </li>
-            <li> 2015 </li>
-        </ul>
+                <ul class="social_media_icon_list">
+                    <li>
+                        <a href="">
+                            <img class="social_icon" src="img/twitter.svg" alt="Twitter">
+                        </a>
+                    </li>
 
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <li>
+                        <a href="">
+                            <img class="social_icon" src="img/Linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </li>
 
-        <div class="small_buttons">
-            <ul class="button_list">
-                <li class="language_descriptor">html</li>
-                <li class="language_descriptor">css</li>
-                <li class="language_descriptor">javaScript</li>
-            </ul>
-        </div>
+                    <li>
+                        <a href="">
+                            <img class="social_icon" src="img/M.svg" alt="M">
+                        </a>
+                    </li>
 
-        <button class="see_project" type="button">See Project</button>
+                    <li>
+                        <a href="">
+                            <img class="social_icon" src="img/Git.svg" alt="Github">
+                        </a>
+                    </li>
 
+                    <li>
+                        <a href="">
+                            <img class="social_icon" src="img/peace.svg" alt="Peace">
+                        </a>
+                    </li>
+                </ul>
 
-          
-        </div>
-
-        <div class="project_1">
-
-            <div class="project1_img">
-                <img src="img/multipoststories2.png" alt="multi-post-stories">
             </div>
 
-        <h3 class="project1_title">Multi-Post Stories</h3>
 
-        <ul class="tonic_list">
-            <li class="canopy">CANOPY</li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> Back End Dev </li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> 2015 </li>
-        </ul>
+        </section>
 
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <section id="projects">
+            <div class="project_1">
 
-        <div class="small_buttons">
-            <ul class="button_list">
-            <li class="language_descriptor">html</li>
-            <li class="language_descriptor">css</li>
-            <li class="language_descriptor">javaScript</li>
-            </ul>
-        </div>
+                <div class="project1_img">
+                    <img src="img/Tonic.png" alt="tonic">
+                </div>
 
-        <button class="see_project" type="button">See Project</button>
+                <h3 class="project1_title">Tonic</h3>
+
+                <ul class="tonic_list">
+                    <li class="canopy">CANOPY</li>
+                    <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                    <li> Back End Dev </li>
+                    <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                    <li> 2015 </li>
+                </ul>
+
+                <p>A daily selection of privately personalized reads; no accounts<br /> or sign-ups required.</p>
+
+                <div class="small_buttons">
+                    <ul class="button_list">
+                        <li class="language_descriptor">html</li>
+                        <li class="language_descriptor">css</li>
+                        <li class="language_descriptor">javaScript</li>
+                    </ul>
+                </div>
+
+                <button class="see_project" type="button" id="see_project_popup">See Project</button>
 
 
-          
-        </div>
 
-        
-    </section>
 
-    <section class="desktop_projects">
-        <div class="desktop_project_1">
-            <div class ="desktop_project_1_img">
-                <img src="img/snapshot.svg" alt="snapshot">
-            </div>
-            <div class="desktop_project_1_content">
 
-            <h3 class="project1_title">Tonic</h3>
-
-        <ul class="tonic_list">
-            <li class="canopy">CANOPY</li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> Back End Dev </li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> 2015 </li>
-        </ul>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-
-        <div class="small_buttons">
-            <ul class="button_list">
-                <li class="language_descriptor">html</li>
-                <li class="language_descriptor">css</li>
-                <li class="language_descriptor">javaScript</li>
-            </ul>
-        </div>
-
-        <button class="see_project" type="button">See Project</button>
             </div>
 
-        </div>
 
-        <div class="desktop_project_2">
-            <div class ="desktop_project_1_img">
-                <img src="img/snapshot2.svg" alt="snapshot" >
-            </div>
-            <div class="desktop_project_1_content">
 
-            <h3 class="project1_title">Multi-Post Stories</h3>
+            <div class="project_1">
 
-        <ul class="tonic_list">
-            <li class="canopy">CANOPY</li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> Back End Dev </li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> 2015 </li>
-        </ul>
-        <p>Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                <div class="project1_img">
+                    <img src="img/multipoststories.png" alt="multi-post-stories">
+                </div>
 
-        <div class="small_buttons">
-            <ul class="button_list">
-                <li class="language_descriptor">html</li>
-                <li class="language_descriptor">css</li>
-                <li class="language_descriptor">javaScript</li>
-            </ul>
-        </div>
+                <h3 class="project1_title">Multi-Post Stories</h3>
 
-        <button class="see_project" type="button">See Project</button>
-            </div>
+                <ul class="tonic_list">
+                    <li id="canopy">CANOPY</li>
+                    <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                    <li> Back End Dev </li>
+                    <li> <img class="counter" src="img/Counter.png" alt="counter">
+                </ul>
 
-        </div>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
 
-        <div class="desktop_project_1">
-            <div class ="desktop_project_1_img">
-                <img src="img/snapshot3.svg" alt="snapshot">
-            </div>
-            <div class="desktop_project_1_content">
+                <div class="small_buttons">
+                    <ul class="button_list">
+                        <li class="language_descriptor">html</li>
+                        <li class="language_descriptor">css</li>
+                        <li class="language_descriptor">javaScript</li>
+                    </ul>
+                </div>
 
-            <h3 class="project1_title">Facebook 360</h3>
+                <button class="see_project" type="button">See Project</button>
 
-        <ul class="tonic_list">
-            <li class="canopy">CANOPY</li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> Back End Dev </li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> 2015 </li>
-        </ul>
-        <p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
 
-        <div class="small_buttons">
-            <ul class="button_list">
-                <li class="language_descriptor">html</li>
-                <li class="language_descriptor">css</li>
-                <li class="language_descriptor">javaScript</li>
-            </ul>
-        </div>
 
-        <button class="see_project" type="button">See Project</button>
             </div>
 
-        </div>
+            <div class="project_1">
 
-        <div class="desktop_project_2">
-            <div class ="desktop_project_1_img">
-                <img src="img/snapshot4.svg" alt="snapshot">
+                <div class="project1_img">
+                    <img src="img/tonic2.png" alt="tonic">
+                </div>
+
+                <h3 class="project1_title">Tonic</h3>
+
+                <ul class="tonic_list">
+                    <li class="canopy">CANOPY</li>
+                    <li> <img class="counter" src="img/Counter.png" alt="tonic"> </li>
+                    <li> Back End Dev </li>
+                    <li> <img class="counter" src="img/Counter.png" alt="tonic"> </li>
+                    <li> 2015 </li>
+                </ul>
+
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+
+                <div class="small_buttons">
+                    <ul class="button_list">
+                        <li class="language_descriptor">html</li>
+                        <li class="language_descriptor">css</li>
+                        <li class="language_descriptor">javaScript</li>
+                    </ul>
+                </div>
+
+                <button class="see_project" type="button">See Project</button>
+
+
+
             </div>
-            <div class="desktop_project_1_content">
 
-            <h3 class="project1_title">Uber Navigation</h3>
+            <div class="project_1">
 
-        <ul class="tonic_list">
-            <li class="canopy">CANOPY</li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> Back End Dev </li>
-            <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
-            <li> 2015 </li>
-        </ul>
-        <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                <div class="project1_img">
+                    <img src="img/multipoststories2.png" alt="multi-post-stories">
+                </div>
 
-        <div class="small_buttons">
-            <ul class="button_list">
-                <li class="language_descriptor">html</li>
-                <li class="language_descriptor">css</li>
-                <li class="language_descriptor">javaScript</li>
-            </ul>
-        </div>
+                <h3 class="project1_title">Multi-Post Stories</h3>
 
-        <button class="see_project" type="button">See Project</button>
+                <ul class="tonic_list">
+                    <li class="canopy">CANOPY</li>
+                    <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                    <li> Back End Dev </li>
+                    <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                    <li> 2015 </li>
+                </ul>
+
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+
+                <div class="small_buttons">
+                    <ul class="button_list">
+                        <li class="language_descriptor">html</li>
+                        <li class="language_descriptor">css</li>
+                        <li class="language_descriptor">javaScript</li>
+                    </ul>
+                </div>
+
+                <button class="see_project" type="button">See Project</button>
+
+
+
             </div>
 
-        </div>
 
-    </section>
+        </section>
+
+        <section class="desktop_projects">
+            <div class="desktop_project_1">
+                <div class="desktop_project_1_img">
+                    <img src="img/snapshot.svg" alt="snapshot">
+                </div>
+                <div class="desktop_project_1_content">
+
+                    <h3 class="project1_title">Tonic</h3>
+
+                    <ul class="tonic_list">
+                        <li class="canopy">CANOPY</li>
+                        <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                        <li> Back End Dev </li>
+                        <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                        <li> 2015 </li>
+                    </ul>
+                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+
+                    <div class="small_buttons">
+                        <ul class="button_list">
+                            <li class="language_descriptor">html</li>
+                            <li class="language_descriptor">css</li>
+                            <li class="language_descriptor">javaScript</li>
+                        </ul>
+                    </div>
+
+                    <button class="see_project" type="button">See Project</button>
+                </div>
+
+            </div>
+
+            <div class="desktop_project_2">
+                <div class="desktop_project_1_img">
+                    <img src="img/snapshot2.svg" alt="snapshot">
+                </div>
+                <div class="desktop_project_1_content">
+
+                    <h3 class="project1_title">Multi-Post Stories</h3>
+
+                    <ul class="tonic_list">
+                        <li class="canopy">CANOPY</li>
+                        <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                        <li> Back End Dev </li>
+                        <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                        <li> 2015 </li>
+                    </ul>
+                    <p>Experimental content creation feature that allows users to add to an existing story over the
+                        course of a day without spamming their friends.</p>
+
+                    <div class="small_buttons">
+                        <ul class="button_list">
+                            <li class="language_descriptor">html</li>
+                            <li class="language_descriptor">css</li>
+                            <li class="language_descriptor">javaScript</li>
+                        </ul>
+                    </div>
+
+                    <button class="see_project" type="button">See Project</button>
+                </div>
+
+            </div>
+
+            <div class="desktop_project_1">
+                <div class="desktop_project_1_img">
+                    <img src="img/snapshot3.svg" alt="snapshot">
+                </div>
+                <div class="desktop_project_1_content">
+
+                    <h3 class="project1_title">Facebook 360</h3>
+
+                    <ul class="tonic_list">
+                        <li class="canopy">CANOPY</li>
+                        <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                        <li> Back End Dev </li>
+                        <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                        <li> 2015 </li>
+                    </ul>
+                    <p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and
+                        enjoy 360 photos and videos on Gear VR.</p>
+
+                    <div class="small_buttons">
+                        <ul class="button_list">
+                            <li class="language_descriptor">html</li>
+                            <li class="language_descriptor">css</li>
+                            <li class="language_descriptor">javaScript</li>
+                        </ul>
+                    </div>
+
+                    <button class="see_project" type="button">See Project</button>
+                </div>
+
+            </div>
+
+            <div class="desktop_project_2">
+                <div class="desktop_project_1_img">
+                    <img src="img/snapshot4.svg" alt="snapshot">
+                </div>
+                <div class="desktop_project_1_content">
+
+                    <h3 class="project1_title">Uber Navigation</h3>
+
+                    <ul class="tonic_list">
+                        <li class="canopy">CANOPY</li>
+                        <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                        <li> Back End Dev </li>
+                        <li> <img class="counter" src="img/Counter.png" alt="counter"> </li>
+                        <li> 2015 </li>
+                    </ul>
+                    <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive
+                        computer: your car.</p>
+
+                    <div class="small_buttons">
+                        <ul class="button_list">
+                            <li class="language_descriptor">html</li>
+                            <li class="language_descriptor">css</li>
+                            <li class="language_descriptor">javaScript</li>
+                        </ul>
+                    </div>
+
+                    <button class="see_project" type="button">See Project</button>
+                </div>
+
+            </div>
+
+        </section>
 
 
-    <section id="contact_info">
-        <div class="contact_info_content">
-            <h2 id="greeting_2">About<br>Myself</h2>
-        
-            <p class="about_me">I’m a software developer! I can help you build a<br> product , feature or website Look through some of my<br>work and experience! If you like what you see and have<br> a project you need coded, don’t hestiate to contact me.</p>
-        
+        <section id="contact_info">
+            <div class="contact_info_content">
+                <h2 id="greeting_2">About<br>Myself</h2>
 
-        <h3>
-            <a href="" class="invitation">Let's Connect</a>
-        </h3>
-        
-            <ul class="social_media_icon_list">
-                 <li>
-                    <a href="">
-                       <img class="social_icon" src="img/twitter.svg" alt="Twitter">
-                    </a>
-                 </li>
-
-                 <li>
-                    <a href="">
-                       <img class="social_icon" src="img/Linkedin.svg" alt="LinkedIn">
-                    </a>   
-                 </li>
-
-                 <li>
-                    <a href="">
-                       <img class="social_icon" src="img/M.svg" alt="M">
-                    </a>
-                 </li>
-
-                 <li>
-                    <a href="">
-                       <img class="social_icon" src="img/Git.svg" alt="Github">
-                    </a>
-                 </li>
-
-                 <li>
-                    <a href="">
-                       <img class="social_icon" src="img/peace.svg" alt="Peace">
-                    </a>
-                 </li>
-              </ul>
-              
+                <p class="about_me">I’m a software developer! I can help you build a<br> product , feature or website
+                    Look through some of my<br>work and experience! If you like what you see and have<br> a project you
+                    need coded, don’t hestiate to contact me.</p>
 
 
-        <button id="resume" type="button">Get my Resume</button>
-        </div>
+                <h3>
+                    <a href="" class="invitation">Let's Connect</a>
+                </h3>
 
-        <div class="works_mobile">
+                <ul class="social_media_icon_list">
+                    <li>
+                        <a href="">
+                            <img class="social_icon" src="img/twitter.svg" alt="Twitter">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <img class="social_icon" src="img/Linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <img class="social_icon" src="img/M.svg" alt="M">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <img class="social_icon" src="img/Git.svg" alt="Github">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <img class="social_icon" src="img/peace.svg" alt="Peace">
+                        </a>
+                    </li>
+                </ul>
+
+
+
+                <button id="resume" type="button">Get my Resume</button>
+            </div>
+
+            <div class="works_mobile">
                 <ul class="language">
-                  <li><p class="slider_titles">Languages</p></li>
-                  <li class="down_arrow"><img class="arrow" src="img/down_arrow.png" alt="down_arrow"></li>
+                    <li>
+                        <p class="slider_titles">Languages</p>
+                    </li>
+                    <li class="down_arrow"><img class="arrow" src="img/down_arrow.png" alt="down_arrow"></li>
                 </ul>
 
                 <div class="abilities">
@@ -411,76 +440,91 @@
                 <img src="img/Separator.png" alt="seperator">
 
                 <ul class="Frameworks">
-                    <li><p class="slider_titles">Frameworks</p></li>
+                    <li>
+                        <p class="slider_titles">Frameworks</p>
+                    </li>
                     <li><img class="arrow" src=img/right_arrow.png alt="right_arrow"></li>
                 </ul>
 
                 <img src="img/Separator.png" alt="seperator">
 
                 <ul class="Skills">
-                    <li><p class="slider_titles">Skills</p></li>
+                    <li>
+                        <p class="slider_titles">Skills</p>
+                    </li>
                     <li><img class="arrow2" src=img/right_arrow.png alt="right_arrow"></li>
                 </ul>
 
                 <img src="img/Separator.png" class="last_seperator" alt="seperator">
 
-        </div>
-        <div class="works_desktop">
-            <ul class="language">
-              <li><p class="slider_titles">Languages</p></li>
-              <li class="down_arrow"><img class="arrow" src="img/down_arrow.png" alt="down_arrow"></li>
-            </ul>
-
-            <div class="abilities">
-                <ul class="languages">
-                    <li><img class="language_img" src="img/js_icon_desktop.svg" alt="javascript"></li>
-                    <li><img class="language_img" src="img/html_icon_desktop.svg" alt="html"></li>
-                    <li><img class="language_img" src="img/css_icon_desktop.svg" alt="css"></li>
-                </ul>
             </div>
+            <div class="works_desktop">
+                <ul class="language">
+                    <li>
+                        <p class="slider_titles">Languages</p>
+                    </li>
+                    <li class="down_arrow"><img class="arrow" src="img/down_arrow.png" alt="down_arrow"></li>
+                </ul>
 
-            <!-- <img src="img/Separator.png" alt="seperator"> -->
-
-            <ul class="Frameworks">
-                <li><p class="slider_titles">Frameworks</p></li>
-                <li><img class="arrow" src=img/right_arrow.png alt="right_arrow"></li>
-            </ul>
-
-            <img src="img/desktop_seperator.svg" alt="seperator">
-
-            <ul class="Skills">
-                <li><p class="slider_titles">Skills</p></li>
-                <li><img class="arrow2" src=img/right_arrow.png alt="right_arrow"></li>
-            </ul>
-
-            <img src="img/desktop_seperator.svg" class="last_seperator" alt="seperator">
-        </div>
-    </section>
-
-        <section class="contact_form">
-            <h3 class="contact_header">Contact Me</h3>
-            <p class="contact_body">If you have an application you are interested in<br> developing, a feature that you need built or a project<br> that needs coding. I’d love to help with it </p>
-                <form class="contact_forms"  action="https://formspree.io/f/mdobrawq" method="POST">
-    
-                    <ul class="form_field">
-                        <li class="form_name">
-                            <input type="text" maxlength="30" id="first_name" name="first_name" class="input" placeholder="Name" required>
-                        </li>
-                        <li class="form_email"> 
-                            <input type="email" id="email" name="email" class="input" placeholder="Email" size="30" required>
-                        </li>
-                        <li class="form_text">
-                           <textarea name="text" maxlength="500" id="message" cols="32" rows="5" required></textarea>
-                        </li>
-                        <li class="form_button">
-                            <button id="form_button" type="submit">Get in touch</button>
-                        </li>
+                <div class="abilities">
+                    <ul class="languages">
+                        <li><img class="language_img" src="img/js_icon_desktop.svg" alt="javascript"></li>
+                        <li><img class="language_img" src="img/html_icon_desktop.svg" alt="html"></li>
+                        <li><img class="language_img" src="img/css_icon_desktop.svg" alt="css"></li>
                     </ul>
-                </form>
+                </div>
 
-               
-                
+                <!-- <img src="img/Separator.png" alt="seperator"> -->
+
+                <ul class="Frameworks">
+                    <li>
+                        <p class="slider_titles">Frameworks</p>
+                    </li>
+                    <li><img class="arrow" src=img/right_arrow.png alt="right_arrow"></li>
+                </ul>
+
+                <img src="img/desktop_seperator.svg" alt="seperator">
+
+                <ul class="Skills">
+                    <li>
+                        <p class="slider_titles">Skills</p>
+                    </li>
+                    <li><img class="arrow2" src=img/right_arrow.png alt="right_arrow"></li>
+                </ul>
+
+                <img src="img/desktop_seperator.svg" class="last_seperator" alt="seperator">
+            </div>
+        </section>
+
+        <section class="contact_form" id="contact_form">
+            <h3 class="contact_header">Contact Me</h3>
+            <p class="contact_body">If you have an application you are interested in<br> developing, a feature that you
+                need built or a project<br> that needs coding. I’d love to help with it </p>
+            <form class="contact_forms" action="https://formspree.io/f/mdobrawq" method="POST">
+
+                <ul class="form_field">
+                    <li class="form_name">
+                        <input type="text" maxlength="30" id="first_name" name="first_name" class="input"
+                            placeholder="Name" required>
+                    </li>
+                    <li class="form_email">
+                        <input type="email" id="email" name="email" class="input" placeholder="Email" size="30"
+                            required>
+                    </li>
+                    <li class="form_text">
+                        <textarea name="text" maxlength="500" id="message" cols="32" rows="5" required></textarea>
+                    </li>
+                    <li class="form_button">
+                        <button id="form_button" type="submit">Get in touch</button>
+                    </li>
+                </ul>
+            </form>
+
+
+
         </section>
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
