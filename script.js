@@ -23,6 +23,11 @@ navMenuButton.addEventListener('click', () => {
   }
 });
 
+<<<<<<< Updated upstream
+=======
+//Cards
+
+>>>>>>> Stashed changes
 const worksPopup = {
   name: ['Tonic', 'Multi Post', 'Facebook 360', 'Uber Navigation'],
   details: ['CANOPY', 'back end dev', '2015'],
@@ -35,11 +40,19 @@ const worksPopup = {
   seeSource: 'https: //www.google.com/',
   seeLive: 'https://www.google.com/',
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 const seeProjectTonic = document.querySelector('.see_project_tonic');
 const PopupMobile = document.getElementById('works_popup_mobile');
 const PopupDesktop = document.getElementById('works_popup_desktop');
 const closePopup = document.getElementById('close_project_popup');
 const closePopupDesktop = document.getElementById('close_project_popup_desktop')
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 seeProjectTonic.addEventListener('click', () =>{
   if (toggleMenu === false) {
     PopupMobile.style.visibility = 'visible';
@@ -54,17 +67,34 @@ seeProjectTonic.addEventListener('click', () =>{
     document.querySelector('.language_descriptor3').innerHTML = worksPopup.languages[2];
  }
 });
+<<<<<<< Updated upstream
 closePopup.addEventListener('click', () =>{
   if (toggleMenu === false) {
     PopupMobile.style.visibility = 'hidden';
+=======
+
+closePopup.addEventListener('click', () =>{
+  if (toggleMenu === false) {
+    PopupMobile.style.visibility = 'hidden';
+ 
+>>>>>>> Stashed changes
 }
 });
 closePopupDesktop.addEventListener('click', () =>{
   if (toggleMenu === false) {
     PopupDesktop.style.visibility = 'hidden';
+<<<<<<< Updated upstream
 }
 });
 const seeProjectTonic2 = document.querySelector('.see_project_tonic2')
+=======
+ 
+}
+});
+
+const seeProjectTonic2 = document.querySelector('.see_project_tonic2')
+
+>>>>>>> Stashed changes
 seeProjectTonic2.addEventListener('click', () =>{
   if (toggleMenu === false) {
     PopupMobile.style.visibility = 'visible';
@@ -79,7 +109,14 @@ seeProjectTonic2.addEventListener('click', () =>{
     document.querySelector('.language_descriptor3').innerHTML = worksPopup.languages[2];
  }
 });
+<<<<<<< Updated upstream
 const seeProjectMulti = document.querySelector('.see_project_multipoststories')
+=======
+
+
+const seeProjectMulti = document.querySelector('.see_project_multipoststories')
+
+>>>>>>> Stashed changes
 seeProjectMulti.addEventListener('click', () =>{
   if (toggleMenu === false) {
     PopupMobile.style.visibility = 'visible';
@@ -94,7 +131,13 @@ seeProjectMulti.addEventListener('click', () =>{
     document.querySelector('.language_descriptor3').innerHTML = worksPopup.languages[2];
  }
 });
+<<<<<<< Updated upstream
 const seeProjectMulti2 = document.querySelector('.see_project_multipoststories2')
+=======
+
+const seeProjectMulti2 = document.querySelector('.see_project_multipoststories2')
+
+>>>>>>> Stashed changes
 seeProjectMulti2.addEventListener('click', () =>{
   if (toggleMenu === false) {
     PopupMobile.style.visibility = 'visible';
@@ -109,8 +152,16 @@ seeProjectMulti2.addEventListener('click', () =>{
     document.querySelector('.language_descriptor3').innerHTML = worksPopup.languages[2];
  }
 });
+<<<<<<< Updated upstream
 //Desktop
 const seeProjectDesktop1 = document.querySelector('.see_project_tonic_desktop1')
+=======
+
+//Desktop
+
+const seeProjectDesktop1 = document.querySelector('.see_project_tonic_desktop1')
+
+>>>>>>> Stashed changes
 seeProjectDesktop1.addEventListener('click', () =>{
   if (toggleMenu === false) {
     PopupDesktop.style.visibility = 'visible';
@@ -128,7 +179,13 @@ seeProjectDesktop1.addEventListener('click', () =>{
     document.querySelector('.language_descriptor6_desktop').innerHTML = worksPopup.languages[5];
  }
 });
+<<<<<<< Updated upstream
 const seeProjectDesktop2 = document.querySelector('.see_project_tonic_desktop2')
+=======
+
+const seeProjectDesktop2 = document.querySelector('.see_project_tonic_desktop2')
+
+>>>>>>> Stashed changes
 seeProjectDesktop2.addEventListener('click', () =>{
   if (toggleMenu === false) {
     PopupDesktop.style.visibility = 'visible';
@@ -146,7 +203,14 @@ seeProjectDesktop2.addEventListener('click', () =>{
     document.querySelector('.language_descriptor6_desktop').innerHTML = worksPopup.languages[5];
  }
 });
+<<<<<<< Updated upstream
 const seeProjectDesktop3 = document.querySelector('.see_project_tonic_desktop3')
+=======
+
+
+const seeProjectDesktop3 = document.querySelector('.see_project_tonic_desktop3')
+
+>>>>>>> Stashed changes
 seeProjectDesktop3.addEventListener('click', () =>{
   if (toggleMenu === false) {
     PopupDesktop.style.visibility = 'visible';
@@ -164,7 +228,14 @@ seeProjectDesktop3.addEventListener('click', () =>{
     document.querySelector('.language_descriptor6_desktop').innerHTML = worksPopup.languages[5];
  }
 });
+<<<<<<< Updated upstream
 const seeProjectDesktop4 = document.querySelector('.see_project_tonic_desktop4')
+=======
+
+
+const seeProjectDesktop4 = document.querySelector('.see_project_tonic_desktop4')
+
+>>>>>>> Stashed changes
 seeProjectDesktop4.addEventListener('click', () =>{
   if (toggleMenu === false) {
     PopupDesktop.style.visibility = 'visible';
@@ -182,3 +253,7 @@ seeProjectDesktop4.addEventListener('click', () =>{
     document.querySelector('.language_descriptor6_desktop').innerHTML = worksPopup.languages[5];
  }
 });
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
