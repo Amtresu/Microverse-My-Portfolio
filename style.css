@@ -524,11 +524,9 @@
     bottom: 4px;
   }
 
-
-  #error_message{
+  #error_message {
     color: red;
   }
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -536,8 +534,9 @@
   .works_desktop {
     display: none;
   }
-  #error_message{
-    color:red
+
+  #error_message {
+    color: red;
   }
 
   body {
