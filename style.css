@@ -95,27 +95,33 @@
   }
 
   .desktop_projects {
+    /* margin: 5%;
+    margin-bottom: 2%;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 10%;
+    justify-content: center; */
   }
 
-  .desktop_project_1 {
+  .project_1 {
     background-color: #ffff;
     display: flex;
     flex-direction: row;
     border: 1px solid #dfe1e6;
     border-radius: 25px;
     margin: 5%;
+    padding: 15px;
 
     /* margin-bottom: 142px;
     margin-left: 142px;
     margin-right: 142px; */
   }
 
-  .desktop_project_1_img {
+  .mobile_screenshot,
+  .popup_img_mobile {
+    display: none;
+  }
+
+  .project_1_img {
     margin: 24px;
   }
 
@@ -201,16 +207,6 @@
     border-radius: 25px;
     margin: 5%;
   }
-
-  /*
-  #contact_info {
-    background-image: src("about_myself_background_desktop.svg");
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-left: 142px;
-    background-color: #ffff;
-  } */
 
   #greeting_2 {
     width: 447px;
@@ -387,12 +383,11 @@
     grid-template-columns: 1fr;
   }
 
-  #works_popup_mobile {
-    display: none;
+  .project_name {
+    font-size: 30px;
   }
 
-  #works_popup_desktop {
-    visibility: hidden;
+  #works_popup {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -423,6 +418,10 @@
     width: 100%;
     align-items: center;
     margin-top: 0;
+  }
+
+  .popup_title {
+    font-size: 30px;
   }
 
   .popup_img_desktop {
@@ -460,7 +459,7 @@
     flex-direction: row;
   }
 
-  #close_project_popup_desktop {
+  #close_project_popup {
     font-size: 25px;
     border: none;
     font-weight: bold;
@@ -483,7 +482,7 @@
     margin-bottom: 20px;
   }
 
-  .see_project_mobile_popup1 {
+  .live_link {
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -504,7 +503,7 @@
     bottom: 4px;
   }
 
-  .see_project_mobile_popup2 {
+  .source_link {
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -527,12 +526,6 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .desktop_projects,
-  .desktop_project_1,
-  .desktop_project_2,
-  .desktop_project_1_img,
-  .see_project,
-  .desktop_project_1_content,
   .desktop_header,
   .works_desktop {
     display: none;
@@ -684,16 +677,23 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     border: 1px solid #dfe1e6;
     border-radius: 25px;
-    padding-left: 15px;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
+    padding: 15px;
+    margin: 15px;
+    margin-bottom: 50px;
+    background-color: #fff;
   }
 
   .project1_img {
-    margin-top: 16px;
+    margin-top: 15px;
+    display: flex;
+  }
+
+  .desktop_screenshot,
+  .popup_img_desktop {
+    display: none;
   }
 
   .project1_title {
@@ -785,23 +785,7 @@
     border-radius: 16px;
   }
 
-  #works_popup_desktop {
-    display: none;
-  }
-
-  #works_popup_mobile {
-    visibility: hidden;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 0;
-    overflow-y: scroll;
-  }
-
-  #works_popup_tonic {
-    visibility: hidden;
+  #works_popup {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -849,8 +833,7 @@
     flex-direction: row;
   }
 
-  #close_project_popup,
-  .close_project_popup {
+  #close_project_popup {
     font-size: 25px;
     border: none;
     font-weight: bold;
@@ -873,8 +856,8 @@
     margin-bottom: 20px;
   }
 
-  .see_project_mobile_popup1 {
-    font-size: 17px;
+  .live_link {
+    font-size: 12px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -888,14 +871,12 @@
     border-radius: 16px;
     color: #6070ff;
     padding: 12px 14px;
-    width: 146px;
-    height: 48px;
-    left: 157px;
-    bottom: 4px;
+    width: 80%;
+    padding-right: 30px;
   }
 
-  .see_project_mobile_popup2 {
-    font-size: 17px;
+  .source_link {
+    font-size: 12px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -909,10 +890,8 @@
     border-radius: 16px;
     color: #6070ff;
     padding: 12px 14px;
-    width: 146px;
-    height: 48px;
-    left: 157px;
-    bottom: 4px;
+    width: 80%;
+    margin-left: 20px;
   }
 
   #greeting_2 {
