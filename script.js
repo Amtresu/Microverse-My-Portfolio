@@ -23,71 +23,70 @@ navMenuButton.addEventListener('click', () => {
   }
 })
 
-
 const popupInfo = [
   {
-     id: 1,
-     name: 'Tonic',
-     info: {
-        info1: 'CANOPY',
-        info2: 'Back End Dev',
-        info3: 2015,
-     },
-     screenshot: 'img/snapshot.svg',
-     popupScreenshot: 'img/popup_snapshot.svg',
-     mobileScreenshot: 'img/Tonic.png',
-     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-     languages: ['html', 'css', 'javascript'],
-     liveLink: 'https://www.google.com',
-     sourceLink: 'https://www.google.com'
+    id: 1,
+    name: 'Tonic',
+    info: {
+      info1: 'CANOPY',
+      info2: 'Back End Dev',
+      info3: 2015
+    },
+    screenshot: 'img/snapshot.svg',
+    popupScreenshot: 'img/popup_snapshot.svg',
+    mobileScreenshot: 'img/Tonic.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+    languages: ['html', 'css', 'javascript'],
+    liveLink: 'https://www.google.com',
+    sourceLink: 'https://www.google.com'
   },
   {
-     id: 2,
-     name: 'Multi-Post Stories',
-     info: {
-        info1: 'CANOPY',
-        info2: 'Back End Dev',
-        info3: 2015,
-     },
-     screenshot: 'img/snapshot2.svg',
-     popupScreenshot: 'img/popup_snapshot.svg',
-     mobileScreenshot: 'img/multipoststories.png',
-     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-     languages: ['html', 'css', 'javascript'],
-     liveLink: 'https://www.google.com/',
-     sourceLink: 'https://www.google.com/'
+    id: 2,
+    name: 'Multi-Post Stories',
+    info: {
+      info1: 'CANOPY',
+      info2: 'Back End Dev',
+      info3: 2015
+    },
+    screenshot: 'img/snapshot2.svg',
+    popupScreenshot: 'img/popup_snapshot.svg',
+    mobileScreenshot: 'img/multipoststories.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+    languages: ['html', 'css', 'javascript'],
+    liveLink: 'https://www.google.com/',
+    sourceLink: 'https://www.google.com/'
   },
   {
-     id: 3,
-     name: 'Facebook 360',
-     info: {
-        info1: 'CANOPY',
-        info2: 'Back End Dev',
-        info3: 2015,
-     },
-     screenshot: 'img/snapshot3.svg',
-     popupScreenshot: 'img/popup_snapshot.svg',
-     mobileScreenshot: 'img/Tonic2.png',
-     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-     languages: ['html', 'css', 'javascript'],
-     liveLink: 'https://www.google.com/',
-     sourceLink: 'https://www.google.com/'
+    id: 3,
+    name: 'Facebook 360',
+    info: {
+      info1: 'CANOPY',
+      info2: 'Back End Dev',
+      info3: 2015
+    },
+    screenshot: 'img/snapshot3.svg',
+    popupScreenshot: 'img/popup_snapshot.svg',
+    mobileScreenshot: 'img/Tonic2.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+    languages: ['html', 'css', 'javascript'],
+    liveLink: 'https://www.google.com/',
+    sourceLink: 'https://www.google.com/'
   },
   {
-     id: 4,
-     name: 'Uber Navigation',
-     info: {
-        info1: 'CANOPY',
-        info2: 'Back End Dev',
-        info3: 2015,
-     },
-     screenshot: 'img/snapshot4.svg',
-     popupScreenshot: 'img/popup_snapshot.svg',
-     mobileScreenshot: 'img/multipoststories2.png',
-     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-     languages: ['html', 'css', 'javascript'],
-     liveLink: 'https://www.google.com/',
-     sourceLink: 'https://www.google.com/'
+    id: 4,
+    name: 'Uber Navigation',
+    info: {
+      info1: 'CANOPY',
+      info2: 'Back End Dev',
+      info3: 2015
+    },
+    screenshot: 'img/snapshot4.svg',
+    popupScreenshot: 'img/popup_snapshot.svg',
+    mobileScreenshot: 'img/multipoststories2.png',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+    languages: ['html', 'css', 'javascript'],
+    liveLink: 'https://www.google.com/',
+    sourceLink: 'https://www.google.com/'
   }
 ]
 
@@ -125,14 +124,14 @@ document.querySelector('.desktop_projects').innerHTML = popupInfo.map((data) =>
 
       </div>
 
-      `).join('');
+      `).join('')
 
-document.getElementsByClassName('.see_project').onclick = function () { viewProject(this.id) };
+document.getElementsByClassName('.see_project').onclick = function () { viewProject(this.id) }
 
-function viewProject(id) {
+function viewProject (id) {
   popupInfo.map((data) => {
-     if (id == data.id) {
-        document.getElementById('post').innerHTML = 
+    if (id === data.id) {
+      document.getElementById('post').innerHTML =
         ` <aside id="works_popup">
         <div class="project1_popup">
             <div class="project1_popup_container">
@@ -185,17 +184,15 @@ function viewProject(id) {
             </div>
         </div>
     </aside> `
-     }
-  }).join('');
-  
-const closeButton = document.getElementById('close_project_popup')
-const empty = ''
+    }
+  }).join('')
 
-closeButton.addEventListener('click', () => {
-  if (toggleMenu === false) {
-    document.getElementById('post').innerHTML = empty
-  }
-})
+  const closeButton = document.getElementById('close_project_popup')
+  const empty = ''
 
+  closeButton.addEventListener('click', () => {
+    if (toggleMenu === false) {
+      document.getElementById('post').innerHTML = empty
+    }
+  })
 }
-
