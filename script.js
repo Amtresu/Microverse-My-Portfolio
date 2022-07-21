@@ -129,7 +129,7 @@ document.querySelector('.desktop_projects').innerHTML = popupInfo.map((data) =>
 document.getElementsByClassName('.see_project').onclick = function () { viewProject(this.id) }
 
 function viewProject (id) {
-  popupInfo.map((data) => {
+  popupInfo.forEach((data) => {
     if (id === data.id) {
       document.getElementById('post').innerHTML =
         ` <aside id="works_popup">
@@ -185,7 +185,7 @@ function viewProject (id) {
         </div>
     </aside> `
     }
-  }).join('')
+  })
 
   const closeButton = document.getElementById('close_project_popup')
   const empty = ''
