@@ -205,7 +205,21 @@ const form = document.querySelector('.contact_forms')
 const errorField = document.getElementById('error_message')
 form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
-    errorField.innerHTML = ('Error')
+    errorField.innerHTML = ('Email should be in lowercase')
     e.preventDefault()
   }
 })
+
+
+
+
+
+
+// if (messages.length > 0) {
+//   e.preventDefault()
+//   errorField.innerHTML = messages.join('')
+//   } else {
+//     errorField.innerHTML = ('')
+//   }
+// })
+>>>>>>> Stashed changes
