@@ -1,25 +1,25 @@
-const hamburgerMenu = document.getElementById('menu_icon');
-const popupWindow = document.getElementById('popup_window');
-const closePopupWindow = document.getElementById('close_popup');
-const toggleMenu = false;
+const hamburgerMenu = document.getElementById('menu_icon')
+const popupWindow = document.getElementById('popup_window')
+const closePopupWindow = document.getElementById('close_popup')
+const toggleMenu = false
 
 hamburgerMenu.addEventListener('click', () => {
   if (toggleMenu === false) {
-    popupWindow.style.visibility = 'visible';
+    popupWindow.style.visibility = 'visible'
   }
-});
+})
 
 closePopupWindow.addEventListener('click', () => {
   if (toggleMenu === false) {
-    popupWindow.style.visibility = 'hidden';
+    popupWindow.style.visibility = 'hidden'
   }
-});
+})
 
-const navMenuButton = document.querySelector('.popup_menu');
+const navMenuButton = document.querySelector('.popup_menu')
 
 navMenuButton.addEventListener('click', () => {
   if (toggleMenu === false) {
-    popupWindow.style.visibility = 'hidden';
+    popupWindow.style.visibility = 'hidden'
   }
 })
 
@@ -197,6 +197,7 @@ function viewProject (id) {
   })
 }
 
+
 const email = document.getElementById('email')
 const form = document.querySelector('.contact_forms')
 const errorField = document.getElementById('error_message')
@@ -206,3 +207,4 @@ form.addEventListener('submit', (e) => {
     e.preventDefault()
   }
 })
+
