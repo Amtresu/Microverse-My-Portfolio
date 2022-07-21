@@ -196,3 +196,13 @@ function viewProject (id) {
     }
   })
 }
+
+const email = document.getElementById('email')
+const form = document.querySelector('.contact_forms')
+const errorField = document.getElementById('error_message')
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    errorField.innerHTML = ('Email should be in lowercase')
+    e.preventDefault()
+  }
+})
