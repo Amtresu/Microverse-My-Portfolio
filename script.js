@@ -209,17 +209,3 @@ form.addEventListener('submit', (e) => {
     e.preventDefault()
   }
 })
-
-
-
-
-
-
-// if (messages.length > 0) {
-//   e.preventDefault()
-//   errorField.innerHTML = messages.join('')
-//   } else {
-//     errorField.innerHTML = ('')
-//   }
-// })
->>>>>>> Stashed changes
