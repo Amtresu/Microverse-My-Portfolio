@@ -223,3 +223,13 @@ function storeInfo () {
 document.getElementById('first_name').addEventListener('input', storeInfo)
 document.querySelector('.user_email').addEventListener('input', storeInfo)
 document.getElementById('message').addEventListener('input', storeInfo)
+
+function refillData () {
+  const restoredSession = JSON.parse(localStorage.getItem('saveInfo'))
+  if (Object.keys(restoredSession).length > 0) {
+    document.getElementById('first_name').value = restoredSession.name
+    document.querySelector('.user_email').value = restoredSession.email
+    document.getElementById('message').value = restoredSession.message
+  }
+}
+window.onload = refillData()
