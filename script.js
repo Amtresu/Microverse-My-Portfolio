@@ -206,3 +206,20 @@ form.addEventListener('submit', (e) => {
     e.preventDefault()
   }
 })
+
+function storeInfo () {
+  const saveInfo = {
+    name: '',
+    email: '',
+    message: ''
+  }
+
+  saveInfo.name = document.getElementById('first_name').value
+  saveInfo.email = document.querySelector('.user_email').value
+  saveInfo.message = document.getElementById('message').value
+
+  localStorage.setItem('saveInfo', JSON.stringify(saveInfo))
+}
+document.getElementById('first_name').addEventListener('input', storeInfo)
+document.querySelector('.user_email').addEventListener('input', storeInfo)
+document.getElementById('message').addEventListener('input', storeInfo)
