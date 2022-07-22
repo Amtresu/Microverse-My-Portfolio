@@ -187,8 +187,8 @@ function viewProject (id) {
     }
   })
 
-  const closeButton = document.getElementById('close_project_popup')
-  const empty = ''
+  const closeButton = document.getElementById('close_projectpopup')
+  const empty = 'empty'
 
   closeButton.addEventListener('click', () => {
     if (toggleMenu === false) {
