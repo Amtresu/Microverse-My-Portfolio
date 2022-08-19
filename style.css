@@ -143,6 +143,11 @@
     color: #172b4d;
   }
 
+  .desktop_screenshot {
+    width: 544px;
+    height: 448px;
+  }
+
   .tonic_list {
     display: flex;
     gap: 15px;
@@ -533,6 +538,11 @@
   .desktop_header,
   .works_desktop {
     display: none;
+  }
+
+  .mobile_screenshot {
+    width: 295px;
+    height: 220px;
   }
 
   #error_message {
