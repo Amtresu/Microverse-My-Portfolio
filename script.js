@@ -26,19 +26,19 @@ navMenuButton.addEventListener('click', () => {
 const popupInfo = [
   {
     id: 1,
-    name: 'Tonic',
+    name: 'To-do-List',
     info: {
-      info1: 'CANOPY',
-      info2: 'Back End Dev',
-      info3: 2015
+      info1: 'Microverse',
+      info2: 'FullStack',
+      info3: 2022
     },
-    screenshot: 'img/snapshot.svg',
-    popupScreenshot: 'img/popup_snapshot.svg',
-    mobileScreenshot: 'img/Tonic.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
+    screenshot: 'img/to-do-list-screenshot.png',
+    popupScreenshot: 'img/to-do-list-screenshot.png',
+    mobileScreenshot: 'img/to-do-list-screenshot.png',
+    description: 'This project is a great display of my skills with ES6 and Javascript. It is a dynamic To-Do list than can add items, deleted items, mark completed, and remove all completed. This app also saves to your local storage so you can access it ay anytime!',
     languages: ['html', 'css', 'javascript'],
-    liveLink: 'https://www.google.com',
-    sourceLink: 'https://www.google.com'
+    liveLink: 'https://amtresu.github.io/To-Do-List/dist/',
+    sourceLink: 'https://github.com/Amtresu/To-Do-List'
   },
   {
     id: 2,
